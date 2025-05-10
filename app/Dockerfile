@@ -7,6 +7,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt && pip install psycopg2-binary
 
 #addddddddddddddddddd
+#ok
 COPY . .
 
 CMD [ "python", "app.py" ]
