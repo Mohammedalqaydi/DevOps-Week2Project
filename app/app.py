@@ -3,7 +3,7 @@ from flask import Flask
 import psycopg2
 app = Flask(__name__)
 
-
+#variables 
 def get_db_connection():
     conn = psycopg2.connect(
         host=os.environ.get("POSTGRES_HOST"),
